@@ -1,2 +1,0 @@
-# JavaPro
-courses
