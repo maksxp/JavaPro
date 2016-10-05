@@ -9,8 +9,7 @@ public class Main {
         Gson gson = new GsonBuilder().create();
         Person person = (Person) gson.fromJson(result, Person.class);
 
-       System.out.println("JSON: \n\t" + gson.toJson(person));
-        System.out.println("printing parsed person");
+             System.out.println("printing parsed person");
         System.out.println(person);
     }
     }
